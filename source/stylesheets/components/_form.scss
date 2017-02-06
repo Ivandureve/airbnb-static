@@ -1,9 +1,9 @@
 /* Your form design */
 .form-login {
   padding: 50px 20px;
-  background: #F6F6F6;
+  background: $gray-background;
   border-radius: 3px;
-  box-shadow: 1px 1px 1px #ECECEC;
+  box-shadow: 1px 1px 1px white;
 }
 .form-login h1 {
   font-size: 22px;

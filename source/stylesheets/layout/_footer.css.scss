@@ -1,18 +1,17 @@
 /* Footer design */
-
-
-.footer p {
-  top: 40px;
-  right: 0px;
-  color: $gray-light;
-}
-
-.footer a:hover {
-  color: $red;
-}
-
-.wrapper-grey {
-  background: #F4F4F4;
+.footer {
+  p {
+    top: 40px;
+    right: 0px;
+    color: $gray-light;
+  }
+  a:hover {
+    color: $red;
+  }
+  .wrapper-brown p {
+    top: 40px;
+    right: 0px;
+  }
 }
 .wrapper-brown {
   background-color: $gray-darker ;
@@ -27,8 +26,4 @@
       filter: blur(1px)
     }
   }
-}
-.footer .wrapper-brown p {
-  top: 40px;
-  right: 0px;
 }

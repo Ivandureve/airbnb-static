@@ -22,9 +22,9 @@
 
 @keyframes boxShadow{
   0% {
-    box-shadow: inset 0px 0 #D23333;
+    box-shadow: inset 0px 0 $brand-color;
   }
   100% {
-    box-shadow: inset 0px -18px #D23333;
+    box-shadow: inset 0px -18px $brand-color;
   }
 }
