@@ -1,0 +1,30 @@
+#team .avatar-large{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+#team a{
+  text-decoration: none;
+  color: white
+}
+
+.underline {
+  animation: boxShadow 0.3s 1s cubic-bezier(0, 0, 0, 1.25) forwards;
+  animation-name: boxShadow;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0, 0, 0, 1.25);
+  animation-delay: 1s;
+  animation-iteration-count: initial;
+  animation-direction: initial;
+  animation-fill-mode: forwards;
+  animation-play-state: initial;
+}
+
+@keyframes boxShadow{
+  0% {
+    box-shadow: inset 0px 0 #D23333;
+  }
+  100% {
+    box-shadow: inset 0px -18px #D23333;
+  }
+}

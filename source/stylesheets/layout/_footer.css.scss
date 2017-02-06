@@ -1,0 +1,34 @@
+/* Footer design */
+
+
+.footer p {
+  top: 40px;
+  right: 0px;
+  color: $gray-light;
+}
+
+.footer a:hover {
+  color: $red;
+}
+
+.wrapper-grey {
+  background: #F4F4F4;
+}
+.wrapper-brown {
+  background-color: $gray-darker ;
+  color: $gray-light;
+  padding: 20px;
+  a {
+    transition: 0.2s;
+    color: $gray-light;
+    font-size: 40px;
+    &:hover {
+      color: $red;
+      filter: blur(1px)
+    }
+  }
+}
+.footer .wrapper-brown p {
+  top: 40px;
+  right: 0px;
+}
